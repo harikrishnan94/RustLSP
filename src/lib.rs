@@ -25,6 +25,3 @@ extern crate log;
 
 pub mod lsp;
 pub mod lsp_transport;
-
-#[cfg(test)]
-mod server_tests;

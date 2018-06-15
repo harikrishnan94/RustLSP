@@ -1,9 +1,14 @@
 /* ----------------- Tests ----------------- */
 
+extern crate jsonrpc;
+extern crate languageserver_types;
+extern crate rust_lsp;
+extern crate serde_json;
+
 use jsonrpc::method_types::MethodError;
 use jsonrpc::*;
-use ls_types::*;
-use lsp::*;
+use rust_lsp::ls_types::*;
+use rust_lsp::lsp::*;
 
 use jsonrpc::json_util::JsonObject;
 use serde_json::Value;
